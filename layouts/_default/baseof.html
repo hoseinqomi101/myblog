@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <title>{{ .Title }} | {{ .Site.Title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<header>
+  <h1><a href="/"> {{ .Site.Title }} </a></h1>
+</header>
+
+<main>
+  {{ block "main" . }}{{ end }}
+</main>
+
+<footer>
+  <p>© {{ now.Year }} - ساخته شده با Hugo + Netlify CMS</p>
+</footer>
+
+</body>
+</html>
+
