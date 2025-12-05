@@ -1,0 +1,5 @@
+baseURL = "/"
+languageCode = "fa"
+title = "وبلاگ من"
+paginate = 10
+
